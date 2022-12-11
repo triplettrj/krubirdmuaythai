@@ -1470,22 +1470,24 @@ input, select, textarea {
 		}
 
 	.button-large {
-		background-image: -moz-linear-gradient(top, #ed391b, #ce1a00);
-		background-image: -webkit-linear-gradient(top, #ed391b, #ce1a00);
-		background-image: -ms-linear-gradient(top, #ed391b, #ce1a00);
-		background-image: linear-gradient(top, #ed391b, #ce1a00);
+		background-image: -moz-linear-gradient(top, rgb(0, 105, 255), rgb(0, 105, 255));
+		background-image: -webkit-linear-gradient(top, rgb(0, 105, 255), rgb(0, 105, 255));
+		background-image: -ms-linear-gradient(top, rgb(0, 105, 255), rgb(0, 105, 255));
+		background-image: linear-gradient(top, rgb(0, 105, 255), rgb(0, 105, 255));
 		display: inline-block;
-		background-color: #ed391b;
+		font-family: sans-serif;
+		background-color: rgb(0, 105, 255);
 		color: #fff;
+
+		box-shadow: rgb(0 0 0 / 25%) 0 2px 5px;
 		text-decoration: none;
 		font-size: 1.75em;
 		height: 2em;
 		line-height: 2.125em;
-		font-weight: 300;
+		font-weight: bold;
 		padding: 0 45px;
 		outline: 0;
-		border-radius: 10px;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+		border-radius: 25px;
 		text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
 	}
 
@@ -1499,11 +1501,11 @@ input, select, textarea {
 		}
 
 		.button-large:active {
-			background-image: -moz-linear-gradient(top, #ce1a00, #ed391b);
-			background-image: -webkit-linear-gradient(top, #ce1a00, #ed391b);
-			background-image: -ms-linear-gradient(top, #ce1a00, #ed391b);
-			background-image: linear-gradient(top, #ce1a00, #ed391b);
-			background-color: #ce1a00;
+			background-image: -moz-linear-gradient(top, rgb(0, 105, 255), rgb(0, 105, 255));
+			background-image: -webkit-linear-gradient(top, rgb(0, 105, 255), rgb(0, 105, 255));
+			background-image: -ms-linear-gradient(top, rgb(0, 105, 255), rgb(0, 105, 255));
+			background-image: linear-gradient(top, rgb(0, 105, 255), rgb(0, 105, 255));
+			background-color: rgb(0, 105, 255);
 			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
 		}
 
@@ -1737,6 +1739,7 @@ input, select, textarea {
 
 			.button-large {
 				font-size: 1.5em;
+				background-color: rgb(0, 105, 255);
 			}
 
 		/* Banner */
