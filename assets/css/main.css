@@ -1478,12 +1478,12 @@ input, select, textarea {
 		font-family: sans-serif;
 		background-color: rgb(0, 105, 255);
 		color: #fff;
-
+		text-align: center;
 		box-shadow: rgb(0 0 0 / 25%) 0 2px 5px;
 		text-decoration: none;
 		font-size: 1.75em;
-		height: 2em;
-		line-height: 2.125em;
+		height: 3em;
+
 		font-weight: bold;
 		padding: 0 45px;
 		outline: 0;
