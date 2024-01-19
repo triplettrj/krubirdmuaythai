@@ -126,7 +126,7 @@ input, select, textarea {
 
 .carousel-images {
   display: flex;
-
+  flex-wrap: wrap;
   height: 100%;
 }
 
