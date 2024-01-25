@@ -2096,3 +2096,14 @@ input, select, textarea {
     height: 100%;
     object-fit: cover;
   }}}
+
+@media (min-width: 1440px) {
+	.carousel {
+		height: 100vh; /* height of the viewport */
+	}
+
+	.carousel-image {
+		height: 100%;
+		object-fit: cover;
+	}
+}
